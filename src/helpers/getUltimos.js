@@ -2,7 +2,7 @@
 
 export const getUltimos = async () => {
 
-    const resp = await fetch('http://localhost:8080/ultimos');
+    const resp = await fetch('https://react-socket-ticket.herokuapp.com/ultimos');
 
     const data = await resp.json();
 
